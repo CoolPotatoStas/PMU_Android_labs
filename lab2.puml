@@ -1,0 +1,38 @@
+@startuml
+
+class Faculty {
+    - List<Direction>
+    + void printDataAboutDirections()
+}
+class Direction {
+    - List<Group>
+    + String title
+    + void printDataAboutGroups()
+}
+enum Course {
+    ONE, TWO, THREE, FOUR, FIVE
+    String getString(Course obj)
+}
+class Hobby {
+    + String title
+    + String action
+
+    void printInfoAboutMe()
+}
+class Student {
+    + List<Hobby>
+    void printHobbies()
+}
+class Group {
+    - List<Student>
+    # Course course
+    + void printDataAboutStudents()
+}
+
+Faculty o-- Direction
+Direction o-- Group
+Group *-- Course
+Group o-- Student
+Student o-- Hobby
+
+@enduml
