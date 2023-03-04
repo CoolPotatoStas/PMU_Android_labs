@@ -1,76 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/text_2"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    >
 
     <Button
-        android:id="@+id/button_1"
-        android:layout_width="126dp"
-        android:layout_height="63dp"
-        android:layout_x="32dp"
-        android:layout_y="54dp"
-        android:onClick="onButton_1"
-        android:text="First" />
+        android:id="@+id/button6"
+        android:layout_width="207dp"
+        android:layout_height="102dp"
+        android:layout_x="97dp"
+        android:layout_y="450dp"
+        android:onClick="on_click"
+        android:text="Авторизация" />
 
     <EditText
-        android:id="@+id/text_1"
-        android:layout_width="349dp"
-        android:layout_height="94dp"
-        android:layout_x="30dp"
-        android:layout_y="141dp"
+        android:id="@+id/editTextPersonName"
+        android:layout_width="272dp"
+        android:layout_height="67dp"
+        android:layout_x="64dp"
+        android:layout_y="221dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/sharp_attach"
+        android:drawablePadding="15dp"
         android:ems="10"
+        android:hint="Login"
         android:inputType="textPersonName"
-        android:text="login" />
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textColor="#C6016D"
+        android:textColorHint="#00E1FF" />
 
     <EditText
-        android:id="@+id/editTextNumberPassword"
-        android:layout_width="341dp"
-        android:layout_height="92dp"
-        android:layout_x="36dp"
-        android:layout_y="251dp"
+        android:id="@+id/editPersonPassword"
+        android:layout_width="272dp"
+        android:layout_height="69dp"
+        android:layout_x="62dp"
+        android:layout_y="362dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/sharp_lock"
+        android:drawablePadding="15dp"
         android:ems="10"
-        android:inputType="numberPassword"
-        android:text="123456789" />
+        android:hint="Введите пароль"
+        android:inputType="textPassword"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
 
-    <TextView
-        android:id="@+id/text_0"
-        android:layout_width="124dp"
-        android:layout_height="58dp"
-        android:layout_x="213dp"
-        android:layout_y="62dp"
-        android:text="Click: 0" />
-
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="132dp"
-        android:layout_height="58dp"
-        android:layout_x="32dp"
-        android:layout_y="369dp"
-        android:text="Switch" />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="237dp"
-        android:layout_y="374dp"
-        android:text="CheckBox" />
-
-    <CheckBox
-        android:id="@+id/checkBox2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="232dp"
-        android:layout_y="420dp"
-        android:text="CheckBox" />
+        android:textColor="#C6016D"
+        android:textColorHint="#00E1FF" />
 
     <Button
-        android:id="@+id/button_2"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="73dp"
-        android:layout_y="542dp"
-        android:onClick="onButton_2"
-        android:text="sendTo" />
+        android:layout_x="159dp"
+        android:layout_y="596dp"
+        android:onClick="menu_click"
+        android:text="Меню" />
+
+
 </AbsoluteLayout>
