@@ -8,7 +8,6 @@ import android.content.BroadcastReceiver
 import android.content.Intent
 import android.graphics.Color
 import android.net.Uri
-import android.os.Build
 import android.os.Bundle
 import android.view.Gravity
 import android.view.View
@@ -73,6 +72,11 @@ class MainActivity : AppCompatActivity() {
 
     fun menu_click(v: View) {
         val intent = Intent(this, MenuActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun transitions_click(v: View) {
+        val intent = Intent(this, TransitionActivity::class.java)
         startActivity(intent)
     }
 

@@ -62,5 +62,12 @@
         android:onClick="menu_click"
         android:text="Меню" />
 
-
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="137dp"
+        android:layout_y="661dp"
+        android:onClick="transitions_click"
+        android:text="Картинки" />
 </AbsoluteLayout>
