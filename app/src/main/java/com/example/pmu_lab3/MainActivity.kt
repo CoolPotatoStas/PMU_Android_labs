@@ -49,7 +49,6 @@ class MainActivity : AppCompatActivity() {
             0, Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/")),
             PendingIntent.FLAG_CANCEL_CURRENT
         )
-//        val res = context.resources
         val mBuilder: NotificationCompat.Builder = NotificationCompat.Builder(this, CHANNEL_ID)
             .setSmallIcon(R.drawable.notification_car)
             .setColor(Color.RED)
@@ -77,6 +76,26 @@ class MainActivity : AppCompatActivity() {
 
     fun transitions_click(v: View) {
         val intent = Intent(this, TransitionActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun workWithFilesClick(v: View){
+        val intent = Intent(this, FilesActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun workWithFilename(v: View){
+        val intent = Intent(this, FilenameEditorActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun workWithDatabase(v: View){
+        val intent = Intent(this, DatabaseActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun workWithBrowse(v: View){
+        val intent = Intent(this, WebBrowseActivity::class.java)
         startActivity(intent)
     }
 

@@ -14,7 +14,7 @@
         android:layout_width="207dp"
         android:layout_height="102dp"
         android:layout_x="97dp"
-        android:layout_y="450dp"
+        android:layout_y="282dp"
         android:onClick="on_click"
         android:text="Авторизация" />
 
@@ -22,8 +22,8 @@
         android:id="@+id/editTextPersonName"
         android:layout_width="272dp"
         android:layout_height="67dp"
-        android:layout_x="64dp"
-        android:layout_y="221dp"
+        android:layout_x="66dp"
+        android:layout_y="80dp"
         android:background="@drawable/custom_input"
         android:drawableStart="@drawable/sharp_attach"
         android:drawablePadding="15dp"
@@ -39,8 +39,8 @@
         android:id="@+id/editPersonPassword"
         android:layout_width="272dp"
         android:layout_height="69dp"
-        android:layout_x="62dp"
-        android:layout_y="362dp"
+        android:layout_x="67dp"
+        android:layout_y="179dp"
         android:background="@drawable/custom_input"
         android:drawableStart="@drawable/sharp_lock"
         android:drawablePadding="15dp"
@@ -49,7 +49,6 @@
         android:inputType="textPassword"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
-
         android:textColor="#C6016D"
         android:textColorHint="#00E1FF" />
 
@@ -57,8 +56,8 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="159dp"
-        android:layout_y="596dp"
+        android:layout_x="29dp"
+        android:layout_y="431dp"
         android:onClick="menu_click"
         android:text="Меню" />
 
@@ -66,8 +65,45 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="137dp"
-        android:layout_y="661dp"
+        android:layout_x="27dp"
+        android:layout_y="499dp"
         android:onClick="transitions_click"
         android:text="Картинки" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="33dp"
+        android:layout_y="569dp"
+        android:onClick="workWithFilesClick"
+        android:text="Работа с файлами" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="34dp"
+        android:layout_y="632dp"
+        android:onClick="workWithFilename"
+        android:text="Имена файлов" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="224dp"
+        android:layout_y="632dp"
+        android:onClick="workWithDatabase"
+        android:text="База Данных" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="229dp"
+        android:layout_y="430dp"
+
+        android:text="Браузер" />
+
 </AbsoluteLayout>

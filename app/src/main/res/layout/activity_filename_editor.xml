@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FilenameEditorActivity">
+
+    <EditText
+        android:id="@+id/nameBox"
+        android:layout_width="387dp"
+        android:layout_height="65dp"
+        android:layout_x="13dp"
+        android:layout_y="19dp"
+        android:hint="Bвeдитe имя" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="91dp"
+        android:onClick="saveName"
+        android:text="Coxpaнить" />
+
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="374dp"
+        android:layout_height="59dp"
+        android:layout_x="13dp"
+        android:layout_y="159dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="234dp"
+        android:onClick="getName"
+        android:text="Пoлyчить имя" />
+
+</AbsoluteLayout>
