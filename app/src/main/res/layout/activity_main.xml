@@ -103,7 +103,7 @@
         android:layout_height="wrap_content"
         android:layout_x="229dp"
         android:layout_y="430dp"
-
+        android:onClick="workWithBrowse"
         android:text="Браузер" />
 
 </AbsoluteLayout>
