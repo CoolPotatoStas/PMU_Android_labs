@@ -50,20 +50,20 @@ notificationМanager.notify(NOTIFY_ID, notification);
 
 ``` java
 package corn.example.ch05; 
-irnport android.os.Bundle; 
-irnport android.support.v7.app.AppCornpatActivity; 
-irnport android.support.v7.widget.Toolbar; 
-irnport android.view.View; 
-irnport android.view.Menu; 
-irnport android.view.Menuitern; 
-irnport android.widget.Toast; 
-irnport android.content.Context; 
-irnport android.app.Notification; 
-irnport android.app.NotificationМanager; 
-irnport android.content.Intent; 
-irnport android.app.Pendingintent; 
-irnport android.graphics.BitmapFactory; 
-irnport android.content.res.Resources; 
+import android.os.Bundle; 
+import  android.support.v7.app.AppCornpatActivity; 
+import android.support.v7.widget.Toolbar; 
+import android.view.View; 
+import android.view.Menu; 
+import android.view.Menuitern; 
+import android.widget.Toast; 
+import android.content.Context; 
+import android.app.Notification; 
+import android.app.NotificationМanager; 
+import android.content.Intent; 
+import android.app.Pendingintent; 
+import android.graphics.BitmapFactory; 
+import android.content.res.Resources; 
 
 puЬlic class MainActivity extends AppCornpatActivity {
 
